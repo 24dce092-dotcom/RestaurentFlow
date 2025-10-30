@@ -1,0 +1,32 @@
+{
+  "enabled": true,
+  "triggers": [
+    "bill_created",
+    "bill_paid"
+  ],
+  "targets": {
+    "receipt": {
+      "printerId": "system_OneNote",
+      "format": "receipt",
+      "active": true
+    },
+    "kitchen": {
+      "printerId": null,
+      "format": "kitchen",
+      "active": false
+    },
+    "backup": {
+      "printerId": null,
+      "format": "receipt",
+      "active": false
+    }
+  },
+  "retry": {
+    "attempts": 2,
+    "delayMs": 1500,
+    "backoffFactor": 2
+  },
+  "concurrency": 1,
+  "queueMax": 200,
+  "auditLog": true
+}

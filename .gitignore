@@ -1,0 +1,73 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+dist-*/
+build/
+**/build/
+*.exe
+*.zip
+
+# Environment files
+.env
+.env.local
+.env.production
+**/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Android
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+**/android/gradle/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/.idea/
+**/android/captures/
+*.apk
+*.aab
+
+# Flutter/Dart
+**/windows/flutter/ephemeral/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/pubspec.lock
+
+# Rust/Tauri build artifacts
+**/target/
+**/src-tauri/target/
+**/*.rlib
+**/*.rmeta
+
+# Capacitor
+**/android/capacitor.settings.gradle
+**/android/capacitor-cordova-android-plugins/
+
+# Service/daemon files
+*.err
+
+# Temporary files
+query
+tmp_icon/

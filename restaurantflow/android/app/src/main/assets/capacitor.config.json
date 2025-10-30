@@ -1,0 +1,8 @@
+{
+	"appId": "com.restaurantflow.waiter",
+	"appName": "RestaurantFlow Waiter",
+	"webDir": "build",
+	"server": {
+		"androidScheme": "http"
+	}
+}

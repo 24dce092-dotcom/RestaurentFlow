@@ -1,0 +1,1336 @@
+{
+  "timestamp": "2025-10-05T16:08:53.575Z",
+  "bills": [
+    {
+      "_id": "68dca94b5cc833853336ba6e",
+      "orders": [
+        "68dca94b5cc833853336ba64",
+        "68dcdeaa90743b303419a108",
+        "68dd2b61462ccc3dbd860251"
+      ],
+      "tableNumber": 1,
+      "waiterName": "Demo Waiter",
+      "items": [
+        {
+          "name": "Sample Dish 1",
+          "price": 40,
+          "quantity": 2,
+          "customizations": "No onions",
+          "_id": "68dca94b5cc833853336ba6f"
+        },
+        {
+          "name": "Sample Dish 2",
+          "price": 30,
+          "quantity": 1,
+          "customizations": "",
+          "_id": "68dca94b5cc833853336ba70"
+        },
+        {
+          "name": "Sample Dish 1",
+          "price": 14,
+          "quantity": 3,
+          "customizations": "No Onions, Less Salt",
+          "_id": "68dcdeb490743b303419a118"
+        },
+        {
+          "name": "Sample Dish 2",
+          "price": 9,
+          "quantity": 2,
+          "customizations": "",
+          "_id": "68de950cefc53eaa4d55bf0a"
+        }
+      ],
+      "totalAmount": 170,
+      "status": "paid",
+      "createdAt": "2025-10-01T04:08:43.864Z",
+      "__v": 17,
+      "edits": [
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-02T12:29:12.131Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 14,
+              "newValue": 12,
+              "_id": "68de70186f7054b2ebad5e1d"
+            }
+          ],
+          "_id": "68de70186f7054b2ebad5e1c"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-02T12:29:23.549Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 12,
+              "newValue": 120,
+              "_id": "68de70236f7054b2ebad5e29"
+            }
+          ],
+          "_id": "68de70236f7054b2ebad5e28"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-02T13:05:44.487Z",
+          "changes": [
+            {
+              "index": 1,
+              "field": "price",
+              "oldValue": 9,
+              "newValue": 90,
+              "_id": "68de78a86f7054b2ebad5e3f"
+            }
+          ],
+          "_id": "68de78a86f7054b2ebad5e3e"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-02T15:27:18.798Z",
+          "changes": [
+            {
+              "index": 1,
+              "field": "price",
+              "oldValue": 90,
+              "newValue": 9,
+              "_id": "68de99d6efc53eaa4d55bfb6"
+            }
+          ],
+          "_id": "68de99d6efc53eaa4d55bfb5"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-02T15:30:59.902Z",
+          "changes": [
+            {
+              "index": 1,
+              "field": "price",
+              "oldValue": 9,
+              "newValue": 90,
+              "_id": "68de9ab3efc53eaa4d55c00e"
+            }
+          ],
+          "_id": "68de9ab3efc53eaa4d55c00d"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-02T17:08:14.910Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 120,
+              "newValue": 12,
+              "_id": "68deb17efcb8bfdaf661ce69"
+            }
+          ],
+          "_id": "68deb17efcb8bfdaf661ce68"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-02T17:08:52.633Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 12,
+              "newValue": 128,
+              "_id": "68deb1a4fcb8bfdaf661cead"
+            }
+          ],
+          "_id": "68deb1a4fcb8bfdaf661ceac"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-02T17:11:20.917Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 128,
+              "newValue": 18,
+              "_id": "68deb238fcb8bfdaf661cf06"
+            }
+          ],
+          "_id": "68deb238fcb8bfdaf661cf05"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-02T17:11:53.672Z",
+          "changes": [
+            {
+              "index": 1,
+              "field": "price",
+              "oldValue": 90,
+              "newValue": 9,
+              "_id": "68deb259fcb8bfdaf661cf3c"
+            }
+          ],
+          "_id": "68deb259fcb8bfdaf661cf3b"
+        },
+        {
+          "edBy": "test-user",
+          "edAt": "2025-10-02T17:14:03.508Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 18,
+              "newValue": 19,
+              "_id": "68deb2dbfcb8bfdaf661cfa1"
+            }
+          ],
+          "_id": "68deb2dbfcb8bfdaf661cfa0"
+        },
+        {
+          "edBy": "test-user",
+          "edAt": "2025-10-02T17:14:21.035Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 19,
+              "newValue": 20,
+              "_id": "68deb2edfcb8bfdaf661cfee"
+            }
+          ],
+          "_id": "68deb2edfcb8bfdaf661cfed"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-03T14:56:22.559Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 20,
+              "newValue": 40,
+              "_id": "68dfe4164b7ee4fcc49c89f3"
+            }
+          ],
+          "_id": "68dfe4164b7ee4fcc49c89f2"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-03T14:57:29.874Z",
+          "changes": [
+            {
+              "index": 1,
+              "field": "price",
+              "oldValue": 9,
+              "newValue": 90,
+              "_id": "68dfe4594b7ee4fcc49c8aa9"
+            }
+          ],
+          "_id": "68dfe4594b7ee4fcc49c8aa8"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-03T15:04:53.942Z",
+          "changes": [
+            {
+              "index": 1,
+              "field": "price",
+              "oldValue": 90,
+              "newValue": 3,
+              "_id": "68dfe6154b7ee4fcc49c8b1a"
+            }
+          ],
+          "_id": "68dfe6154b7ee4fcc49c8b19"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-03T20:56:50.205Z",
+          "changes": [
+            {
+              "index": 1,
+              "field": "price",
+              "oldValue": 3,
+              "newValue": 30,
+              "_id": "68e038928f5beb38f1138694"
+            }
+          ],
+          "_id": "68e038928f5beb38f1138693"
+        }
+      ],
+      "lastEdited": "2025-10-03T20:56:50.206Z",
+      "billNumber": 3
+    },
+    {
+      "_id": "68dca94b5cc833853336ba72",
+      "orders": [
+        "68dca94b5cc833853336ba67"
+      ],
+      "tableNumber": 2,
+      "waiterName": "Demo Waiter",
+      "items": [
+        {
+          "name": "Sample Dish 2",
+          "price": 2.98,
+          "quantity": 2,
+          "customizations": "No onions",
+          "_id": "68dca94b5cc833853336ba73"
+        },
+        {
+          "name": "Sample Dish 3",
+          "price": 18.91,
+          "quantity": 1,
+          "customizations": "",
+          "_id": "68dca94b5cc833853336ba74"
+        }
+      ],
+      "totalAmount": 24.87,
+      "status": "paid",
+      "createdAt": "2025-10-01T04:08:43.871Z",
+      "__v": 15,
+      "edits": [
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-02T12:51:25.736Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 9,
+              "newValue": 6,
+              "_id": "68de754d6f7054b2ebad5e31"
+            }
+          ],
+          "_id": "68de754d6f7054b2ebad5e30"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-02T13:09:36.698Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 6,
+              "newValue": 60,
+              "_id": "68de79906f7054b2ebad5e49"
+            }
+          ],
+          "_id": "68de79906f7054b2ebad5e48"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-02T13:14:46.324Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 60,
+              "newValue": 6,
+              "_id": "68de7ac66f7054b2ebad5e55"
+            }
+          ],
+          "_id": "68de7ac66f7054b2ebad5e54"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-02T17:21:44.027Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 6,
+              "newValue": 16,
+              "_id": "68deb4a8fcb8bfdaf661cffc"
+            }
+          ],
+          "_id": "68deb4a8fcb8bfdaf661cffb"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-02T17:37:28.054Z",
+          "changes": [
+            {
+              "index": 1,
+              "field": "price",
+              "oldValue": 11,
+              "newValue": 10.91,
+              "_id": "68deb858fcb8bfdaf661d098"
+            }
+          ],
+          "_id": "68deb858fcb8bfdaf661d097"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-03T14:37:57.104Z",
+          "changes": [
+            {
+              "index": 1,
+              "field": "price",
+              "oldValue": 10.91,
+              "newValue": 100.91,
+              "_id": "68dfdfc54b7ee4fcc49c84e3"
+            }
+          ],
+          "_id": "68dfdfc54b7ee4fcc49c84e2"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-03T14:38:14.763Z",
+          "changes": [
+            {
+              "index": 1,
+              "field": "price",
+              "oldValue": 100.91,
+              "newValue": 1.91,
+              "_id": "68dfdfd64b7ee4fcc49c84f7"
+            }
+          ],
+          "_id": "68dfdfd64b7ee4fcc49c84f6"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-03T14:38:22.896Z",
+          "changes": [
+            {
+              "index": 1,
+              "field": "price",
+              "oldValue": 1.91,
+              "newValue": 18.91,
+              "_id": "68dfdfde4b7ee4fcc49c850d"
+            }
+          ],
+          "_id": "68dfdfde4b7ee4fcc49c850c"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-03T14:38:40.743Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 16,
+              "newValue": 6,
+              "_id": "68dfdff04b7ee4fcc49c853b"
+            }
+          ],
+          "_id": "68dfdff04b7ee4fcc49c853a"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-03T14:38:50.903Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 6,
+              "newValue": 26,
+              "_id": "68dfdffa4b7ee4fcc49c856d"
+            }
+          ],
+          "_id": "68dfdffa4b7ee4fcc49c856c"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-03T14:39:08.068Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 26,
+              "newValue": 26.01,
+              "_id": "68dfe00c4b7ee4fcc49c8589"
+            }
+          ],
+          "_id": "68dfe00c4b7ee4fcc49c8588"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-03T14:39:15.712Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 26.01,
+              "newValue": 26,
+              "_id": "68dfe0134b7ee4fcc49c85a7"
+            }
+          ],
+          "_id": "68dfe0134b7ee4fcc49c85a6"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-03T14:46:15.999Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 26,
+              "newValue": 25.98,
+              "_id": "68dfe1b74b7ee4fcc49c870c"
+            }
+          ],
+          "_id": "68dfe1b74b7ee4fcc49c870b"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-03T14:46:26.540Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 25.98,
+              "newValue": 20.98,
+              "_id": "68dfe1c24b7ee4fcc49c872e"
+            }
+          ],
+          "_id": "68dfe1c24b7ee4fcc49c872d"
+        },
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-03T14:46:36.292Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 20.98,
+              "newValue": 2.98,
+              "_id": "68dfe1cc4b7ee4fcc49c8752"
+            }
+          ],
+          "_id": "68dfe1cc4b7ee4fcc49c8751"
+        }
+      ],
+      "lastEdited": "2025-10-03T14:46:36.292Z",
+      "billNumber": 4
+    },
+    {
+      "_id": "68dca94b5cc833853336ba76",
+      "orders": [
+        "68dca94b5cc833853336ba6a",
+        "68dd33b0462ccc3dbd860791",
+        "68dd3126462ccc3dbd860650"
+      ],
+      "tableNumber": 3,
+      "waiterName": "Demo Waiter",
+      "items": [
+        {
+          "name": "Sample Dish 3",
+          "price": 11,
+          "quantity": 2,
+          "customizations": "No onions",
+          "_id": "68dca94b5cc833853336ba77"
+        },
+        {
+          "name": "Sample Dish 4",
+          "price": 22,
+          "quantity": 1,
+          "customizations": "",
+          "_id": "68dca94b5cc833853336ba78"
+        },
+        {
+          "name": "Sample Dish 3",
+          "price": 11,
+          "quantity": 1,
+          "customizations": "",
+          "_id": "68dd37eb462ccc3dbd860b48"
+        },
+        {
+          "name": "Sample Dish 2",
+          "price": 9,
+          "quantity": 1,
+          "customizations": "",
+          "_id": "68dd37ec462ccc3dbd860b60"
+        }
+      ],
+      "totalAmount": 64,
+      "status": "paid",
+      "createdAt": "2025-10-01T04:08:43.875Z",
+      "__v": 3,
+      "billNumber": 5,
+      "edits": []
+    },
+    {
+      "_id": "68dcde8190743b303419a0ef",
+      "orders": [
+        "68dcb8e490743b303419a06a"
+      ],
+      "tableNumber": 7,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 2",
+          "price": 9,
+          "quantity": 2,
+          "customizations": "No Onions, Less Salt",
+          "_id": "68dcde8190743b303419a0f0"
+        },
+        {
+          "name": "Sample Dish 1",
+          "price": 14,
+          "quantity": 3,
+          "customizations": "Less Salt, No Onions",
+          "_id": "68dcde8190743b303419a0f1"
+        }
+      ],
+      "totalAmount": 60,
+      "status": "paid",
+      "createdAt": "2025-10-01T07:55:45.570Z",
+      "__v": 1,
+      "billNumber": 6,
+      "edits": []
+    },
+    {
+      "_id": "68dd5c1c47d4e40378d8ecb4",
+      "orders": [
+        "68dd3b54e5b222694cea2a12"
+      ],
+      "tableNumber": 8,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 11",
+          "price": 16,
+          "quantity": 1,
+          "customizations": "",
+          "_id": "68dd5c1c47d4e40378d8ecb5"
+        }
+      ],
+      "totalAmount": 16,
+      "status": "paid",
+      "createdAt": "2025-10-01T16:51:40.199Z",
+      "__v": 1,
+      "billNumber": 7,
+      "edits": []
+    },
+    {
+      "_id": "68dd5c2947d4e40378d8ece6",
+      "orders": [
+        "68dd26d5462ccc3dbd85ff4c"
+      ],
+      "tableNumber": 4,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 2",
+          "price": 9,
+          "quantity": 2,
+          "customizations": "Sauce on Side, Extra Spicy",
+          "_id": "68dd5c2947d4e40378d8ece7"
+        },
+        {
+          "name": "Sample Dish 1",
+          "price": 14,
+          "quantity": 1,
+          "customizations": "Well Done, Gluten Free",
+          "_id": "68dd5c2947d4e40378d8ece8"
+        }
+      ],
+      "totalAmount": 32,
+      "status": "paid",
+      "createdAt": "2025-10-01T16:51:53.479Z",
+      "__v": 1,
+      "billNumber": 8,
+      "edits": []
+    },
+    {
+      "_id": "68dd5c4d47d4e40378d8ed35",
+      "orders": [
+        "68dd5c4947d4e40378d8ed15"
+      ],
+      "tableNumber": 6,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 5",
+          "price": 12,
+          "quantity": 1,
+          "customizations": "",
+          "_id": "68dd5c4d47d4e40378d8ed36"
+        }
+      ],
+      "totalAmount": 12,
+      "status": "paid",
+      "createdAt": "2025-10-01T16:52:29.954Z",
+      "__v": 1,
+      "billNumber": 9,
+      "edits": []
+    },
+    {
+      "_id": "68dd5c4f47d4e40378d8ed3e",
+      "orders": [
+        "68dd5c3e47d4e40378d8ed12"
+      ],
+      "tableNumber": 5,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 1",
+          "price": 14,
+          "quantity": 1,
+          "customizations": "",
+          "_id": "68dd5c4f47d4e40378d8ed3f"
+        }
+      ],
+      "totalAmount": 14,
+      "status": "paid",
+      "createdAt": "2025-10-01T16:52:31.920Z",
+      "__v": 1,
+      "billNumber": 10,
+      "edits": []
+    },
+    {
+      "_id": "68e044a98f5beb38f1139305",
+      "orders": [
+        "68e044a38f5beb38f11392f7"
+      ],
+      "tableNumber": 2,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 1",
+          "price": 14,
+          "quantity": 3,
+          "customizations": "",
+          "_id": "68e044a98f5beb38f1139306"
+        }
+      ],
+      "totalAmount": 42,
+      "status": "paid",
+      "edits": [],
+      "createdAt": "2025-10-03T21:48:25.037Z",
+      "__v": 0,
+      "billNumber": "BILL-001",
+      "billSeq": 1
+    },
+    {
+      "_id": "68e044f28f5beb38f113944c",
+      "orders": [
+        "68e044eb8f5beb38f113943e"
+      ],
+      "tableNumber": 2,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 8",
+          "price": 23,
+          "quantity": 8,
+          "customizations": "",
+          "_id": "68e044f28f5beb38f113944d"
+        }
+      ],
+      "totalAmount": 184,
+      "status": "paid",
+      "edits": [],
+      "createdAt": "2025-10-03T21:49:38.769Z",
+      "__v": 0,
+      "billNumber": "BILL-002",
+      "billSeq": 2
+    },
+    {
+      "_id": "68e047938f5beb38f1139770",
+      "orders": [
+        "68e0478d8f5beb38f1139762"
+      ],
+      "tableNumber": 7,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 5",
+          "price": 12,
+          "quantity": 5,
+          "customizations": "",
+          "_id": "68e047938f5beb38f1139771"
+        }
+      ],
+      "totalAmount": 60,
+      "status": "paid",
+      "edits": [],
+      "createdAt": "2025-10-03T22:00:51.445Z",
+      "__v": 0,
+      "billNumber": "BILL-003",
+      "billSeq": 3
+    },
+    {
+      "_id": "68e0491d8f5beb38f1139a1b",
+      "orders": [
+        "68e049188f5beb38f1139a0d"
+      ],
+      "tableNumber": 1,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 1",
+          "price": 14,
+          "quantity": 2,
+          "customizations": "",
+          "_id": "68e0491d8f5beb38f1139a1c"
+        }
+      ],
+      "totalAmount": 28,
+      "status": "paid",
+      "edits": [],
+      "createdAt": "2025-10-03T22:07:25.642Z",
+      "__v": 0,
+      "billNumber": "BILL-004",
+      "billSeq": 4
+    },
+    {
+      "_id": "68e0494c8f5beb38f1139c05",
+      "orders": [
+        "68e049408f5beb38f1139b90"
+      ],
+      "tableNumber": 3,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 2",
+          "price": 9,
+          "quantity": 11,
+          "customizations": "",
+          "_id": "68e0494c8f5beb38f1139c06"
+        }
+      ],
+      "totalAmount": 99,
+      "status": "paid",
+      "edits": [],
+      "createdAt": "2025-10-03T22:08:12.288Z",
+      "__v": 0,
+      "billNumber": "BILL-005",
+      "billSeq": 5
+    },
+    {
+      "_id": "68e04ac38f5beb38f113a14f",
+      "orders": [
+        "68e04abe8f5beb38f113a140"
+      ],
+      "tableNumber": 1,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 3",
+          "price": 11,
+          "quantity": 1,
+          "customizations": "",
+          "_id": "68e04ac38f5beb38f113a150"
+        }
+      ],
+      "totalAmount": 11,
+      "status": "paid",
+      "edits": [],
+      "createdAt": "2025-10-03T22:14:27.116Z",
+      "__v": 0,
+      "billNumber": "BILL-006",
+      "billSeq": 6
+    },
+    {
+      "_id": "68e04ac38f5beb38f113a158",
+      "orders": [
+        "68e04ab68f5beb38f113a0e0"
+      ],
+      "tableNumber": 2,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 2",
+          "price": 9,
+          "quantity": 3,
+          "customizations": "",
+          "_id": "68e04ac38f5beb38f113a159"
+        }
+      ],
+      "totalAmount": 27,
+      "status": "paid",
+      "edits": [],
+      "createdAt": "2025-10-03T22:14:27.847Z",
+      "__v": 0,
+      "billNumber": "BILL-007",
+      "billSeq": 7
+    },
+    {
+      "_id": "68e04f658f5beb38f113e538",
+      "orders": [
+        "68dec29527fa74ef67d7947e"
+      ],
+      "tableNumber": 1,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 2",
+          "price": 9,
+          "quantity": 2,
+          "customizations": "",
+          "_id": "68e04f658f5beb38f113e539"
+        }
+      ],
+      "totalAmount": 18,
+      "status": "paid",
+      "edits": [],
+      "createdAt": "2025-10-03T22:34:13.659Z",
+      "__v": 0,
+      "billNumber": "BILL-008",
+      "billSeq": 8
+    },
+    {
+      "_id": "68e05163443724f3526ecc2b",
+      "orders": [
+        "68e05160443724f3526ecc1b"
+      ],
+      "tableNumber": 6,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 2",
+          "price": 9,
+          "quantity": 3,
+          "customizations": "",
+          "_id": "68e05163443724f3526ecc2c"
+        }
+      ],
+      "totalAmount": 27,
+      "status": "paid",
+      "edits": [],
+      "createdAt": "2025-10-03T22:42:43.235Z",
+      "__v": 0,
+      "billNumber": "BILL-009",
+      "billSeq": 9
+    },
+    {
+      "_id": "68e0518f443724f3526ed19b",
+      "orders": [
+        "68e05189443724f3526ed0c8"
+      ],
+      "tableNumber": 4,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 1",
+          "price": 14,
+          "quantity": 2,
+          "customizations": "",
+          "_id": "68e0518f443724f3526ed19c"
+        },
+        {
+          "name": "Sample Dish 2",
+          "price": 9,
+          "quantity": 1,
+          "customizations": "",
+          "_id": "68e0518f443724f3526ed19d"
+        }
+      ],
+      "totalAmount": 37,
+      "status": "paid",
+      "edits": [],
+      "createdAt": "2025-10-03T22:43:27.201Z",
+      "__v": 0,
+      "billNumber": "BILL-010",
+      "billSeq": 10
+    },
+    {
+      "_id": "68e0b39b8eac79f87d79fab5",
+      "orders": [
+        "68e0b3878eac79f87d79fa8e"
+      ],
+      "tableNumber": 1,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 1",
+          "price": 324,
+          "quantity": 1,
+          "customizations": "Less Salt",
+          "_id": "68e0b39b8eac79f87d79fab6"
+        }
+      ],
+      "totalAmount": 324,
+      "status": "paid",
+      "edits": [
+        {
+          "edBy": "web-user",
+          "edAt": "2025-10-04T05:42:15.682Z",
+          "changes": [
+            {
+              "index": 0,
+              "field": "price",
+              "oldValue": 14,
+              "newValue": 324,
+              "_id": "68e0b3b78eac79f87d79fc62"
+            }
+          ],
+          "_id": "68e0b3b78eac79f87d79fc61"
+        }
+      ],
+      "createdAt": "2025-10-04T05:41:47.914Z",
+      "__v": 1,
+      "lastEdited": "2025-10-04T05:42:15.685Z",
+      "billNumber": "BILL-011",
+      "billSeq": 11
+    },
+    {
+      "_id": "68e155264fcbf6eab6d84017",
+      "orders": [
+        "68e155214fcbf6eab6d84009",
+        "68e0b73e8eac79f87d79fda7"
+      ],
+      "tableNumber": 1,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "pizza",
+          "price": 20,
+          "quantity": 2,
+          "customizations": "",
+          "_id": "68e155264fcbf6eab6d84018"
+        },
+        {
+          "name": "Sample Dish 2",
+          "price": 9,
+          "quantity": 2,
+          "customizations": "No Onions",
+          "_id": "68e166054fcbf6eab6df61ca"
+        }
+      ],
+      "totalAmount": 58,
+      "status": "paid",
+      "edits": [],
+      "createdAt": "2025-10-04T17:11:02.329Z",
+      "__v": 1,
+      "billNumber": "BILL-012",
+      "billSeq": 12
+    },
+    {
+      "_id": "68e1662e4fcbf6eab6df7d50",
+      "orders": [
+        "68e1661a4fcbf6eab6df6d07"
+      ],
+      "tableNumber": 3,
+      "waiterName": "",
+      "items": [
+        {
+          "name": "Sample Dish 2",
+          "price": 9,
+          "quantity": 1,
+          "customizations": "",
+          "_id": "68e1662e4fcbf6eab6df7d51"
+        }
+      ],
+      "totalAmount": 9,
+      "status": "paid",
+      "edits": [],
+      "createdAt": "2025-10-04T18:23:42.779Z",
+      "__v": 0
+    }
+  ],
+  "payments": [
+    {
+      "_id": "68e021a6b453be907266967f",
+      "billId": "68dca94b5cc833853336ba6e",
+      "tableNumber": 1,
+      "method": "cash",
+      "amount": 154.44,
+      "status": "completed",
+      "reference": "CASH-TX2COR6LD",
+      "metadata": {
+        "method": "cash",
+        "amount": 154.44,
+        "cashReceived": 154.44,
+        "change": 0,
+        "timestamp": "2025-10-03T19:19:00.469Z",
+        "reference": "CASH-TX2COR6LD"
+      },
+      "timestamp": "2025-10-03T19:19:02.335Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e041568f5beb38f1138db9",
+      "billId": "68dd5c2947d4e40378d8ece6",
+      "tableNumber": 4,
+      "method": "cash",
+      "amount": 32,
+      "status": "completed",
+      "reference": "print-auto-1759527254587",
+      "timestamp": "2025-10-03T21:34:14.923Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e042a58f5beb38f1138ecc",
+      "billId": "68dd5c2947d4e40378d8ece6",
+      "tableNumber": 4,
+      "method": "cash",
+      "amount": 32,
+      "status": "completed",
+      "reference": "print-auto-1759527589105",
+      "timestamp": "2025-10-03T21:39:49.119Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e0448d8f5beb38f11392cc",
+      "billId": "68dca94b5cc833853336ba72",
+      "tableNumber": 2,
+      "method": "cash",
+      "amount": 24.87,
+      "status": "completed",
+      "reference": "print-auto-1759528077255",
+      "timestamp": "2025-10-03T21:47:57.269Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e044cc8f5beb38f1139406",
+      "billId": "68dca94b5cc833853336ba72",
+      "tableNumber": 2,
+      "method": "cash",
+      "amount": 24.87,
+      "status": "completed",
+      "reference": "print-auto-1759528139687",
+      "timestamp": "2025-10-03T21:49:00.021Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e044e68f5beb38f1139432",
+      "billId": "68e044a98f5beb38f1139305",
+      "tableNumber": 2,
+      "method": "cash",
+      "amount": 42,
+      "status": "completed",
+      "reference": "print-auto-1759528166329",
+      "timestamp": "2025-10-03T21:49:26.343Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e047598f5beb38f11396bd",
+      "billId": "68dca94b5cc833853336ba72",
+      "tableNumber": 2,
+      "method": "cash",
+      "amount": 24.87,
+      "status": "completed",
+      "reference": "print-auto-1759528793192",
+      "timestamp": "2025-10-03T21:59:53.200Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e0475b8f5beb38f11396ea",
+      "billId": "68e044a98f5beb38f1139305",
+      "tableNumber": 2,
+      "method": "cash",
+      "amount": 42,
+      "status": "completed",
+      "reference": "print-auto-1759528795742",
+      "timestamp": "2025-10-03T21:59:55.749Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e0475e8f5beb38f11396f7",
+      "billId": "68e044f28f5beb38f113944c",
+      "tableNumber": 2,
+      "method": "cash",
+      "amount": 184,
+      "status": "completed",
+      "reference": "print-auto-1759528798604",
+      "timestamp": "2025-10-03T21:59:58.611Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e0477c8f5beb38f1139756",
+      "billId": "68dcde8190743b303419a0ef",
+      "tableNumber": 7,
+      "method": "cash",
+      "amount": 60,
+      "status": "completed",
+      "reference": "print-auto-1759528828482",
+      "timestamp": "2025-10-03T22:00:28.492Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e049218f5beb38f1139ad3",
+      "billId": "68e0491d8f5beb38f1139a1b",
+      "tableNumber": 1,
+      "method": "cash",
+      "amount": 28,
+      "status": "completed",
+      "reference": "print-auto-1759529249897",
+      "timestamp": "2025-10-03T22:07:29.910Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e049458f5beb38f1139b93",
+      "billId": "68dca94b5cc833853336ba76",
+      "tableNumber": 3,
+      "method": "cash",
+      "amount": 64,
+      "status": "completed",
+      "reference": "print-auto-1759529285935",
+      "timestamp": "2025-10-03T22:08:05.948Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e049578f5beb38f1139cc4",
+      "billId": "68e0494c8f5beb38f1139c05",
+      "tableNumber": 3,
+      "method": "cash",
+      "amount": 99,
+      "status": "completed",
+      "reference": "print-auto-1759529302745",
+      "timestamp": "2025-10-03T22:08:23.063Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e04a6e8f5beb38f1139e4f",
+      "billId": "68e047938f5beb38f1139770",
+      "tableNumber": 7,
+      "method": "cash",
+      "amount": 60,
+      "status": "completed",
+      "reference": "print-auto-1759529582232",
+      "timestamp": "2025-10-03T22:13:02.248Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e04add8f5beb38f113a2e2",
+      "billId": "68e04ac38f5beb38f113a14f",
+      "tableNumber": 1,
+      "method": "cash",
+      "amount": 11,
+      "status": "completed",
+      "reference": "print-auto-1759529693712",
+      "timestamp": "2025-10-03T22:14:53.727Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e04b4f8f5beb38f113a845",
+      "billId": "68e04ac38f5beb38f113a158",
+      "tableNumber": 2,
+      "method": "cash",
+      "amount": 29.16,
+      "status": "completed",
+      "reference": "CASH-NU1TXFLC7",
+      "metadata": {
+        "method": "cash",
+        "amount": 29.16,
+        "cashReceived": 29.16,
+        "change": 0,
+        "timestamp": "2025-10-03T22:16:45.537Z",
+        "reference": "CASH-NU1TXFLC7"
+      },
+      "timestamp": "2025-10-03T22:16:47.054Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e04b648f5beb38f113a90c",
+      "billId": "68e04ac38f5beb38f113a158",
+      "tableNumber": 2,
+      "method": "cash",
+      "amount": 27,
+      "status": "completed",
+      "reference": "print-auto-1759529828214",
+      "timestamp": "2025-10-03T22:17:08.228Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e04c5b8f5beb38f113b6a7",
+      "billId": "68dd5c4f47d4e40378d8ed3e",
+      "tableNumber": 5,
+      "method": "cash",
+      "amount": 14,
+      "status": "completed",
+      "reference": "print-auto-1759530075260",
+      "timestamp": "2025-10-03T22:21:15.272Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e04d458f5beb38f113c05f",
+      "billId": "68dd5c4d47d4e40378d8ed35",
+      "tableNumber": 6,
+      "method": "cash",
+      "amount": 12,
+      "status": "completed",
+      "reference": "print-auto-1759530309952",
+      "timestamp": "2025-10-03T22:25:09.966Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e04ea18f5beb38f113ccf6",
+      "billId": "68dd5c1c47d4e40378d8ecb4",
+      "tableNumber": 8,
+      "method": "cash",
+      "amount": 16,
+      "status": "completed",
+      "reference": "print-auto-1759530657440",
+      "timestamp": "2025-10-03T22:30:57.448Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e04feb8f5beb38f113ecc9",
+      "billId": "68e04f658f5beb38f113e538",
+      "tableNumber": 1,
+      "method": "cash",
+      "amount": 18,
+      "status": "completed",
+      "reference": "print-auto-1759530987109",
+      "timestamp": "2025-10-03T22:36:27.123Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e05168443724f3526eccf3",
+      "billId": "68e05163443724f3526ecc2b",
+      "tableNumber": 6,
+      "method": "cash",
+      "amount": 27,
+      "status": "completed",
+      "reference": "print-auto-1759531368216",
+      "timestamp": "2025-10-03T22:42:48.225Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e0519f443724f3526ed39f",
+      "billId": "68e0518f443724f3526ed19b",
+      "tableNumber": 4,
+      "method": "cash",
+      "amount": 37,
+      "status": "completed",
+      "reference": "print-auto-1759531422873",
+      "timestamp": "2025-10-03T22:43:43.197Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e0e11f8eac79f87d79ff7d",
+      "billId": "68dca94b5cc833853336ba6e",
+      "tableNumber": 1,
+      "method": "cash",
+      "amount": 170,
+      "status": "completed",
+      "reference": "print-auto-1759568159614",
+      "timestamp": "2025-10-04T08:55:59.624Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e0e1218eac79f87d7a000e",
+      "billId": "68e0b39b8eac79f87d79fab5",
+      "tableNumber": 1,
+      "method": "cash",
+      "amount": 324,
+      "status": "completed",
+      "reference": "print-auto-1759568161754",
+      "timestamp": "2025-10-04T08:56:01.764Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e296ecc90e47ac3267f8f6",
+      "billId": "68e155264fcbf6eab6d84017",
+      "tableNumber": 1,
+      "method": "cash",
+      "amount": 58,
+      "status": "completed",
+      "reference": "print-auto-1759680236023",
+      "timestamp": "2025-10-05T16:03:56.331Z",
+      "__v": 0
+    },
+    {
+      "_id": "68e296efc90e47ac3267fc62",
+      "billId": "68e1662e4fcbf6eab6df7d50",
+      "tableNumber": 3,
+      "method": "cash",
+      "amount": 9,
+      "status": "completed",
+      "reference": "print-auto-1759680239118",
+      "timestamp": "2025-10-05T16:03:59.425Z",
+      "__v": 0
+    }
+  ]
+}

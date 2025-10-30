@@ -1,0 +1,14 @@
+{
+  "name": "icon-tools",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build:waiter": "node ./png-to-ico.js ../waiter_app/icons/waiter.png ../waiter_app/windows/runner/resources/app_icon.ico"
+  },
+  "dependencies": {
+    "png-to-ico": "^2.1.8",
+    "sharp": "^0.34.4",
+    "to-ico": "^1.1.5"
+  }
+}

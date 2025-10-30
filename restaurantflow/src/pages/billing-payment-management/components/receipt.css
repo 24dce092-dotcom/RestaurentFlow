@@ -1,0 +1,11 @@
+/* Minimal print styles for receipt export */
+.receipt-root {
+  background: #fff;
+  color: #111;
+}
+
+@media print {
+  body * { visibility: hidden; }
+  .receipt-root, .receipt-root * { visibility: visible; }
+  .receipt-root { position: absolute; left: 0; top: 0; }
+}
